@@ -3,6 +3,7 @@
 主要用于金融领域的客户支持，提供基于上下文的专业回答。<br>
 
 
+
 一、文件使用说明：<br>
 1、如需加载文档，请将文件放入以下存储路径：./data<br>
 2、如需查看文档索引生成的结果，可查看生成的向量数据库存储路径：./index<br>
@@ -72,6 +73,28 @@ paddlenlp：https://github.com/PaddlePaddle/PaddleNLP<br>
 paddlepaddle：https://www.paddlepaddle.org.cn/<br>
 llamaindex:https://github.com/run-llama/llama_index<br>
 
+paddle版本<br>
+paddle2onnx1.2.11<br>
+paddlefsl1.1.0<br>
+paddlenlp3.0.0b2.post20241115<br>
+paddlepaddle-gpu3.0.0b1<br>
+
+llamaindex版本<br>
+llama-index                             0.11.3<br>
+llama-index-agent-openai                0.3.4<br>
+llama-index-cli                         0.3.1<br>
+llama-index-core                        0.11.21<br>
+llama-index-embeddings-huggingface      0.3.1<br>
+llama-index-embeddings-openai           0.2.5<br>
+llama-index-indices-managed-llama-cloud 0.4.0<br>
+llama-index-legacy                      0.9.48.post3<br>
+llama-index-llms-openai                 0.2.16<br>
+llama-index-multi-modal-llms-openai     0.2.3<br>
+llama-index-program-openai              0.2.0<br>
+llama-index-question-gen-openai         0.2.0<br>
+llama-index-readers-file                0.2.2<br>
+llama-index-readers-llama-parse         0.3.0<br>
+llama-index-retrievers-bm25             0.4.0<br>
 提示：<br>
 1、需修改llamaindex中的llama_index/llama-index-core/llama_index/core/chat_engine/condense_plus_context.py文件中的窗口大小<br>
         chat_history = chat_history or []
