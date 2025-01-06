@@ -12,6 +12,6 @@ def remove_newlines(input_file, output_file):
         f.write(content_cleaned)
 
 # 使用示例
-input_file = '/home/wwhh/RAGtest2/RAGtest/data/监管规则适用指引——境外发行上市类第6号：境内上市公司境外发行全球存托凭证指引(CBFG-0000594-A01).txt'  # 输入文件路径
-output_file = '/home/wwhh/RAGtest2/RAGtest/data/监管规则适用指引——境外发行上市类第6号：境内上市公司境外发行全球存托凭证指引(CBFG-0000594-A01)1.txt'  # 输出文件路径
+input_file = ''  # 输入文件路径
+output_file = ''  # 输出文件路径
 remove_newlines(input_file, output_file)
