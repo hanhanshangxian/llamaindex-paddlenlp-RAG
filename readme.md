@@ -77,5 +77,5 @@ llamaindex:https://github.com/run-llama/llama_index<br>
         chat_history = chat_history or []
         memory = memory or ChatMemoryBuffer.from_defaults(
             chat_history=chat_history, token_limit=llm.metadata.context_window - 100
-        )
+        )<br>
 2、如需对模型进行精调，请参考https://github.com/PaddlePaddle/PaddleNLP/tree/develop/llm
